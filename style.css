@@ -477,15 +477,15 @@ footer p i {
   .ae {
     position: absolute;
     transition: 0.4s;
-    top: -1000px;
+    top: 72px;
+    right: 1000px;
     width: 100%;
     background-color: #070c2d;
-    /* height: 244px; */
-    height: 600px;
+    height: 244px;
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 0;
+    /* left: 0; */
     z-index: 9999999;
   }
   #ul {
@@ -499,7 +499,8 @@ footer p i {
 }
 
 .active {
-  top: 72px;
+  /* top: 72px; */
+  right: 0;
 }
 @media (min-width: 991px) {
   #bars {
