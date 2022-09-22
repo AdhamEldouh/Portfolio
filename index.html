@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adham</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- Icon -->
+    <link rel="icon" href="Adham21.jpg" />
+  </head>
+  <body>
+    <i id="btn" class="fa-solid fa-arrow-up"></i>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <a href="#" class="logo">A<span class="D">d</span>ham</a>
+        <div id="ae" class="ae">
+          <ul id="ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <i id="bars" class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing" id="landing">
+      <div class="container">
+        <div class="left">
+          <p>Hello, I am Adham</p>
+          <h1>Web Developer</h1>
+          <p class="two">I Build Life Changing Courses</p>
+          <a class="Button" href="#projects">View My Work</a>
+          <div class="links">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/adham-eldouh-045a77248/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=100084543283325"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/adhameldouh004/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a target="_blank" href="https://github.com/AdhamEldouh"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="right">
+          <img src="images/Adham3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+      <h2 class="main-title">Services</h2>
+      <div class="container">
+        <div class="box" id="box_1">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <h3>Script Writing</h3>
+          <p>
+            Research and write scripts for different topics that can then be
+            directly recorded for video production
+          </p>
+        </div>
+        <div class="box" id="box_2">
+          <i class="fas fa-video"></i>
+          <h3>Video Production</h3>
+          <p>
+            Record and shoot videos taking into consideration proper settings,
+            followed by production & post-production work
+          </p>
+        </div>
+        <div class="box" id="box_3">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Curriculum Development</h3>
+          <p>
+            Record and shoot videos taking into consideration proper settings,
+            followed by production & post-production work
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start projects -->
+    <div class="projects" id="projects">
+      <h2 class="main-title">projects</h2>
+      <div class="container">
+        <div class="projects-content">
+          <div class="card">
+            <img src="portfolio-1 (1).jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="portfolio-2.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="portfolio-3.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- start Contact -->
+    <div class="contact" id="contact">
+      <h2 class="main-title">Lets Work Together</h2>
+      <div class="container">
+        <a class="box" id="box_4">
+          <i class="fas fa-phone"></i>
+          <div class="detailes">
+            <h3>Phone</h3>
+            <p>+201015013191</p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          class="box"
+          id="box_5"
+          href="mailto:adhameldouh004@gmail.com"
+        >
+          <i class="fas fa-envelope"></i>
+          <div class="detailes">
+            <h3>Email</h3>
+            <p>adhameldouh004@gmail.com</p>
+          </div></a
+        >
+      </div>
+    </div>
+    <footer>
+      <p>Made With <i class="fa-solid fa-heart"></i> Adham Eldouh</p>
+    </footer>
+    <link rel="stylesheet" href="main.js" />
+    <script>
+      let bars = document.getElementById("bars");
+      let btn = document.getElementById("btn");
+      let ae = document.querySelector(".ae");
+
+      window.onscroll = function () {
+        if (this.scrollY >= 200) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      };
+      btn.onclick = function () {
+        window.scrollTo({
+          top: 0,
+        });
+      };
+      document.onclick = function (e) {
+        if (e.target.id !== "ae" && e.target.id !== "bars") {
+          ae.classList.remove("active");
+        }
+      };
+      bars.onclick = function () {
+        ae.classList.toggle("active");
+      };
+
+      ScrollReveal({
+        // reset: true,
+        duration: 2500,
+        distance: "60px",
+        delay: 400,
+      });
+
+      ScrollReveal().reveal(".right img", { delay: 200, origin: "right" });
+      ScrollReveal().reveal(".left", { delay: 200, origin: "left" });
+      ScrollReveal().reveal(".services .container #box_1", {
+        delay: 200,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".services .container #box_2", {
+        delay: 200,
+        origin: "bottom",
+      });
+      ScrollReveal().reveal(".services .container #box_3", {
+        delay: 200,
+        origin: "right",
+      });
+      ScrollReveal().reveal(".contact .container #box_4", {
+        delay: 200,
+        origin: "left",
+      });
+      ScrollReveal().reveal(".contact .container #box_5", {
+        delay: 200,
+        origin: "right",
+      });
+    </script>
+  </body>
+</html>
